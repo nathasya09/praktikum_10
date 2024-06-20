@@ -4,7 +4,7 @@ def calculate_bmi(weight, height):
     bmi = weight / (height/100)**2
     return bmi
 
-st.tittle("BMI Calculator")
+st.title("BMI Calculator")
 
 weight = st.number_input("Enter your weight (kg):", min_value=1.0, step=0.1)
 height = st.number_input("Enter your height (cm):", min_value=1.0, step=0.1)
